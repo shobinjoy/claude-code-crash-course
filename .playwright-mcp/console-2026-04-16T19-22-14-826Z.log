@@ -1,0 +1,145 @@
+[    1032ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://www.cnn.com/:7661
+[    2630ms] [LOG] AdFuelError event fired: CustomEvent @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-64657ad77953d8d82b727ea5791e7be2ecd5593e139a66d673c880ff57e829b1.min.js:0
+[    2630ms] [ERROR] %c TOS was NOT accepted, AdFuel will not load. background: red;color:white; @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-64657ad77953d8d82b727ea5791e7be2ecd5593e139a66d673c880ff57e829b1.min.js:0
+[    2631ms] [LOG] AdFuelError event fired: CustomEvent @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-64657ad77953d8d82b727ea5791e7be2ecd5593e139a66d673c880ff57e829b1.min.js:0
+[    3673ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:84
+[    3683ms] [ERROR] Not signed in with the identity provider. @ https://www.cnn.com/:0
+[    4227ms] [LOG] {adSessionID: c90384c0-7027-47dd-8d2e-6787420bfca4, advertisingIdentifier: null, appSessionId: c90384c0-7027-47dd-8d2e-6787420bfca4, applicationIdentifier: www.cnn.com, applicationName: cnn} @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[    4370ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:357441)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:347459)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:340793)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:313196 @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    4378ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:357441)
+    at t.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:319762)
+    at d (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:292035)
+    at Generator.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:293359)
+    at Generator.next (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:292445) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    4382ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:320043)
+    at d (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:292035)
+    at Generator.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:293359)
+    at Generator.next (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:292445)
+    at qe (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:297937)
+    at o (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:298141) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    4444ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:357441)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:329634
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022914)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1025018)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022739) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    4447ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:357441)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:329802
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022914)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1025018)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022739) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[    5160ms] [LOG] [BL]  [raiseEvent] OnInit{"elementUrl":"https://www.cnn.com/"} @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[    5162ms] [LOG] [BL]  [raiseEvent] OnManifestLoadedundefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[    7111ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://tpc.googlesyndication.com') does not match the recipient window's origin ('https://www.cnn.com'). @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[    7708ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[    7726ms] [WARNING] [iFrameSizer][Host page: iFrameResizer0] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ingored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning. @ https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.min.js:7
+[    8284ms] [WARNING] [iFrameSizer][Host page: iFrameResizer0] IFrame has not responded within 5 seconds. Check iFrameResizer.contentWindow.js has been loaded in iFrame. This message can be ingored if everything is working, or you can set the warningTimeout option to a higher value or zero to suppress this warning. @ https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.6.1/iframeResizer.min.js:7
+[    8714ms] [ERROR] Player | Player received error, stopping playback session: a7bfcbb6-2684-47d8-9848-1465de687b4f code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:1344
+[    9402ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason @ https://accounts.google.com/gsi/client:85
+[   11487ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <a>
+Ancestor with aria-hidden: <div> @ https://www.cnn.com/:0
+[   39274ms] TypeError: Cannot read properties of undefined (reading 'track')
+    at c (https://www.cnn.com/:18465:1241)
+    at T (https://www.cnn.com/:18465:1442)
+[   39411ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://www.cnn.com/:7343
+[   39813ms] [LOG] AdFuelError event fired: CustomEvent @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-64657ad77953d8d82b727ea5791e7be2ecd5593e139a66d673c880ff57e829b1.min.js:0
+[   39814ms] [ERROR] %c TOS was NOT accepted, AdFuel will not load. background: red;color:white; @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-64657ad77953d8d82b727ea5791e7be2ecd5593e139a66d673c880ff57e829b1.min.js:0
+[   39814ms] [LOG] AdFuelError event fired: CustomEvent @ https://www.cnn.com/media/sites/js/bundles/cnn-adfuel-body-64657ad77953d8d82b727ea5791e7be2ecd5593e139a66d673c880ff57e829b1.min.js:0
+[   40278ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:84
+[   40327ms] [ERROR] Not signed in with the identity provider. @ https://www.cnn.com/:0
+[   40381ms] [LOG] {adSessionID: c90384c0-7027-47dd-8d2e-6787420bfca4, advertisingIdentifier: null, appSessionId: c90384c0-7027-47dd-8d2e-6787420bfca4, applicationIdentifier: www.cnn.com, applicationName: cnn} @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[   40493ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:357441)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:347459)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:340793)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:313196 @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[   40501ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:357441)
+    at t.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:319762)
+    at d (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:292035)
+    at Generator.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:293359)
+    at Generator.next (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:292445) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[   40502ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:320043)
+    at d (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:292035)
+    at Generator.<anonymous> (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:293359)
+    at Generator.next (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:292445)
+    at qe (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:297937)
+    at o (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:298141) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[   40532ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:357441)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:329634
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022914)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1025018)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022739) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[   40533ms] [ERROR] FAVE -->> KeyValueStore: Error invoking key/value pair function. TypeError: window.turner_getGuid is not a function
+    at https://www.cnn.com/:18126:1086
+    at n (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268281)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:268819)
+    at e.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:270135)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:228975)
+    at t.value (https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:357441)
+    at https://registry.api.cnn.io/bundles/fave/boltInstance-c9d95658/boltInstance:1:329802
+    at a.execute (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022914)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1025018)
+    at o.dispatch (https://registry.api.cnn.io/bundles/fave/vendor-a5827f1f/vendor:1:1022739) @ https://registry.api.cnn.io/bundles/fave/latest-4.x/js:0
+[   40628ms] [LOG] [BL]  [raiseEvent] OnInit{"elementUrl":"https://www.cnn.com/"} @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[   40629ms] [LOG] [BL]  [raiseEvent] OnManifestLoadedundefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[   40702ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://tpc.googlesyndication.com') does not match the recipient window's origin ('https://www.cnn.com'). @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[   41182ms] [WARNING] It is recommended that a robustness level be specified. Not specifying the robustness level could result in unexpected behavior. @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:0
+[   41454ms] [ERROR] Player | Player received error, stopping playback session: ce996f43-540b-431d-b36e-2816695b0acd code:1K-0043 message: NoKeySystemAvailable: No key system available on device undefined @ https://registry.api.cnn.io/bundles/fave/boltPlayer-928190fd/boltPlayer:1344
+[   42124ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:85
+[   43248ms] TypeError: Cannot read properties of undefined (reading 'track')
+    at c (https://www.cnn.com/:18465:1241)
+    at T (https://www.cnn.com/:18465:1442)

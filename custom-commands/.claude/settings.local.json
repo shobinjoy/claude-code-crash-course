@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/Work/Udemy_Claude code Beginner course/project/hookhub/**)",
+      "Read(//d/Work/Udemy_Claude code Beginner course/project/.claude/**)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
