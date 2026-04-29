@@ -1,12 +1,12 @@
 ## Weather
 
-Provide current weather information for the city: $ARGUMENTS
+Fetch and display **live** current weather for the city: $ARGUMENTS
 
-Use your knowledge to describe typical current weather conditions for this city, including:
+Use the WebSearch tool to search for "current weather in $ARGUMENTS" and retrieve real-time data. Then present the results in this format:
 - Temperature (in both Celsius and Fahrenheit)
 - Weather condition (sunny, cloudy, rainy, etc.)
 - Humidity
 - Wind speed and direction
 - Any weather advisories or notable conditions
 
-If you don't have real-time data, clearly state that and provide the typical seasonal weather for the city based on today's date.
+Always cite the source and timestamp of the data. Do NOT fall back to typical or historical weather — if live data cannot be retrieved, say so explicitly and stop.
