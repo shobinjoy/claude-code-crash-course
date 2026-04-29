@@ -3,7 +3,11 @@ name = "claude-code-crash-course"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.14"
+
+[tool.uv.extra-build-dependencies]
+pygame = ["setuptools._distutils.msvccompiler"]
+
 dependencies = [
     "pygame>=2.6.1",
 ]
