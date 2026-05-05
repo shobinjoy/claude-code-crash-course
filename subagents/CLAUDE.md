@@ -13,7 +13,34 @@ A subagent is a separate AI agent instance you define in `.claude/agents/<name>.
 
 ## How to Create a Subagent
 
-### 1. Create the agent file
+There are two ways to create a subagent: using the **`/agents` command** (recommended) or manually creating the file.
+
+### Option A: Using the `/agents` command (recommended)
+
+The `/agents` command opens an interactive UI inside Claude Code to create, view, and manage your subagents without touching any files manually.
+
+```
+/agents
+```
+
+This opens a menu where you can:
+- **Create a new agent** — give it a name, description, model, and system prompt interactively
+- **List existing agents** — see all agents defined in `.claude/agents/`
+- **Edit or delete agents** — modify an agent's config from within Claude Code
+
+To create the `savage-code-reviewer` agent using this command:
+
+1. Run `/agents` in the Claude Code terminal
+2. Select **Create new agent**
+3. Fill in the fields:
+   - **Name:** `savage-code-reviewer`
+   - **Description:** when to trigger it (trigger phrases, example prompts)
+   - **Model:** `sonnet`
+   - **Color:** `cyan`
+   - **System prompt:** the agent's persona and instructions
+4. Save — Claude Code writes the `.claude/agents/savage-code-reviewer.md` file for you
+
+### Option B: Create the agent file manually
 
 Place a markdown file in `.claude/agents/`:
 
